@@ -9,10 +9,10 @@
 </p>
 
 <p align="center">
-  <img src="logo.png" width="200" alt="Grok Bot Logo" />
+  <img src="logo.png" width="200" alt="GEEK9 Logo" />
 </p>
 
-<h1 align="center">Grok Bot</h1>
+<h1 align="center">GEEK9 — Grok's Trader Dog</h1>
 
 <p align="center">
   <strong>The world's first AI-powered live-streaming memecoin trading robot dog on Solana</strong>
@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/status-live-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/trades-autonomous-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/stream-24%2F7-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/robot-PiDog-purple?style=flat-square" />
+  <img src="https://img.shields.io/badge/robot-GEEK9-purple?style=flat-square" />
 </p>
 
 ---
@@ -65,7 +65,7 @@ graph TB
     end
 
     subgraph Robot["🐕 Robot Dog"]
-        PD[PiDog]
+        PD[GEEK9]
         CH[Choreography]
     end
 
@@ -190,7 +190,7 @@ graph LR
     B --> C[Grok Commentary]
     B --> D[Kokoro TTS]
     B --> E[OBS Scene Switch]
-    B --> F[PiDog Choreography]
+    B --> F[GEEK9 Choreography]
     B --> G[Overlay Update]
 
     A --> H[Telegram Notify]
@@ -257,7 +257,7 @@ graph TD
     BRAIN --> PG[(PostgreSQL)]
     BRAIN --> DASH[📊 Dashboard<br/>Next.js]
     BRAIN --> STREAM[🎥 Stream<br/>OBS + TTS]
-    BRAIN --> DOG[🐕 PiDog<br/>Robot]
+    BRAIN --> DOG[🐕 GEEK9<br/>Robot]
     BRAIN --> CHAT[💬 Community<br/>Chat + Telegram]
 
     PG --> DASH
@@ -287,7 +287,7 @@ graph TD
 | **Blockchain** | Solana Web3.js, SPL Token, PumpPortal, Jupiter |
 | **Data Feeds** | Birdeye (REST + WS), SolanaTracker, Helius |
 | **Streaming** | OBS WebSocket, Kokoro TTS, Browser Overlays |
-| **Robotics** | PiDog (Python FastAPI) |
+| **Robotics** | GEEK9 (Python FastAPI) |
 | **Community** | PumpFun Chat, Telegram Bot API |
 | **Infra** | Railway (deploy), npm workspaces (monorepo) |
 
@@ -312,7 +312,7 @@ graph TD
 |---------|----------|
 | Brain | Cloud / Local |
 | Web Dashboard | Cloud |
-| PiDog | Raspberry Pi / Local |
+| GEEK9 | Raspberry Pi / Local |
 | Kokoro TTS | Local GPU |
 | PostgreSQL | Cloud |
 
