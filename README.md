@@ -306,7 +306,7 @@ graph TD
 
 ---
 
-## Deployment
+## Deployment 
 
 | Service | Platform |
 |---------|----------|
